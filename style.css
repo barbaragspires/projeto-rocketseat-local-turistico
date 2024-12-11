@@ -24,14 +24,14 @@
 	font-family: var(---font);
 }
 
-header{
 
 
 
-}
 
 main{
-
+ width: 1120px;
+ height: auto;
+ margin: 10px auto 15px auto;
 }
 
 .headline{
@@ -39,6 +39,8 @@ main{
 	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 8px;
+	margin-top: 64px;
 
 }
 
@@ -46,40 +48,96 @@ main{
   width: 1120px;
 	height: 660px;
 	border-radius: 15px;
-	border-bottom: 1px solid var(---color-border);
 }
 
 .img-2, .img-3, .img-4{
   width: 1120px;
 	height: 350px;
 	border-radius: 15px;
+
 }
 h1{
 	font-size: 36px;
 	font-weight: bold;
 	color: var(---tex-primary);
+	margin: 8px auto 40px auto;
 }
 
 h2{
 	font-size: 32px;
 	font-weight: bold;
 	color: var(---text-primary);
+
 }
 
-h3{
+h3 {
+	display: inline;
 	font-size: 28px;
 	font-weight: bold;
-	color: var(---text-primary)
+	color: var(---text-primary);
+
 }
 
 p{
 	font-size: 16px;
 	color: var(---text-secondary);
+	margin-bottom: 65px;
 }
 
-div{
+ ol li::marker {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	
+}
+ul li::marker {
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+
+ol{
+	margin:20px 0 8px 0; ;
+	list-style-position: inside; /* Alinha os marcadores dentro da margem do texto */
+
+}
+
+.caption{
 	font-style: italic;
 	font-size: 16px;
 	text-decoration: var(---text-secondary);
+	border-bottom: 1px solid var(---color-border);
+	text-align: center;
+	padding: 24px 0 44px 0;
+}
 
+ul{
+  
+	font-weight: bold;
+	margin-bottom: 48px;
+  list-style-position: inside; /* Alinha os marcadores dentro da margem do texto */
+	
+	
+}
+
+ul li.accent-blue{
+	color: var(---acent-blue);
+}
+
+ul li.accent-purple{
+	color: var(---acent-purple)
+
+}
+
+ul li.accent-pink {
+	color:var(---acent-pink)
+}
+
+ul li.accent-orange {
+	color: var(---acent-orange)
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 48px;
 }
